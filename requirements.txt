@@ -1,5 +1,6 @@
-streamlit
-pandas
+streamlit==1.55.0
+pandas<2
+numpy<1.26
 plotly
 pycaret==3.3.2
 python-dotenv
