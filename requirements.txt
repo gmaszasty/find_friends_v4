@@ -1,5 +1,5 @@
-streamlit
-pandas
-pycaret #.clustering #import load_model, predict_model
-plotly.express
-python-dotenvgit 
+streamlit==1.55.0
+pandas==2.2.2
+plotly==5.20.0
+pycaret==3.3.2
+python-dotenv
