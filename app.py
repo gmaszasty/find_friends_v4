@@ -82,7 +82,7 @@ fig = px.pie(
     names=feature,
     color=feature,    
 )
-st.plotly_chart(fig, use_container_width=True)
+st.plotly_chart(fig, width='stretch')
 
 ##
 ##Histogramy cech
@@ -119,7 +119,7 @@ fig.update_layout(
     yaxis_title="Liczba osób",
 )
 
-st.plotly_chart(fig, use_container_width=True)
+st.plotly_chart(fig, width='stretch')
 
 ##
 ##Heatmapa zależnosci między cechami
@@ -170,6 +170,6 @@ fig.update_layout(
     yaxis_title=feature_label_x,
 )
 
-st.plotly_chart(fig, use_container_width=True)
+st.plotly_chart(fig, width='stretch')
 
 
