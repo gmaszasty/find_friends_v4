@@ -1,7 +1,7 @@
 import streamlit as st
 import json
 import pandas as pd
-from pycaret.clustering import load_model, predict_model
+import pycaret.clustering #import load_model, predict_model
 import plotly.express as px
 st.title("Znajdź znajomych")
 
