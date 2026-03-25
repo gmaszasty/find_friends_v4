@@ -1,0 +1,6 @@
+streamlit
+json
+pandas
+pycaret #.clustering #import load_model, predict_model
+plotly.express
+python-dotenvgit 
