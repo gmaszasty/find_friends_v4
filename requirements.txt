@@ -1,5 +1,5 @@
 streamlit==1.55.0
 pandas==2.2.2
 plotly==5.20.0
-pycaret==3.3.2
+pycaret[clustering]
 python-dotenv
